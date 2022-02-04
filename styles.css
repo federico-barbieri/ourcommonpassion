@@ -18,17 +18,14 @@ body{
   height: 200rem;
   margin: 0 auto 0 auto;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .welcome{
   display: block;
   max-width: 80%;
   height: 15rem;
-  margin: 5rem auto 5rem auto;
+  margin: 12rem auto 5rem auto;
   color: white;
   font-size: 6rem;
   font-family: 'Rowdies', cursive;
@@ -42,7 +39,9 @@ body{
   text-align: left;
   font-size: 2rem;
   background-color: black;
-  margin: 2rem auto 2rem auto;
+  margin: 2rem auto 4rem auto;
+  max-width: 70%;
+  padding: 1rem;
 }
 
 .pizza-video{
@@ -50,4 +49,14 @@ body{
   height: 560px;
   border: 2px solid white;
   margin: 2rem auto 2rem auto;
+}
+
+.did-you-know{
+  color: white;
+  text-align: left;
+  font-size: 2rem;
+  background-color: black;
+  margin: 2rem auto 4rem auto;
+  padding: 1rem;
+  max-width: 70%;
 }
