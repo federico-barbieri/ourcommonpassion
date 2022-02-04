@@ -1,9 +1,9 @@
-const passion = document.querySelector('.passion');
+const welcome = document.querySelector('.welcome');
 
-passion.addEventListener('mouseover', () => {
-  passion.innerHTML = "PIZZA";
+welcome.addEventListener('mouseover', () => {
+  welcome.innerHTML = "WELCOME TO OUR COMMON PIZZA";
 })
 
-passion.addEventListener('mouseout', () => {
-  passion.innerHTML = "PASSION";
+welcome.addEventListener('mouseout', () => {
+  welcome.innerHTML = "WELCOME TO OUR COMMON PASSION";
 })

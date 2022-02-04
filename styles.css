@@ -9,26 +9,45 @@ html{
 
 body{
     background-image: url('./pictures/pizza-back.jpg');
+    text-align: center;
 }
 
 
 .container{
-  width: 100%;
+  max-width: 80%;
   height: 200rem;
-
+  margin: 0 auto 0 auto;
   text-align: center;
-}
-
-.welcome{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100rem;
-  height: 20rem;
-  margin: 10rem auto 5rem auto;
+}
+
+.welcome{
+  display: block;
+  max-width: 80%;
+  height: 15rem;
+  margin: 5rem auto 5rem auto;
   color: white;
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'Rowdies', cursive;
 
+  filter: drop-shadow(4px 4px 6px black);
+}
+
+
+.intro-text{
+  color: white;
+  text-align: left;
+  font-size: 2rem;
+  background-color: black;
+  margin: 2rem auto 2rem auto;
+}
+
+.pizza-video{
+  width: 1000px;
+  height: 560px;
+  border: 2px solid white;
+  margin: 2rem auto 2rem auto;
 }
