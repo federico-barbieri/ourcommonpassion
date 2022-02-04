@@ -125,6 +125,12 @@ body{
   filter: drop-shadow(4px 4px 6px black);
 }
 
+.borderling:hover{
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 6px white);
+  color: black;
+}
+
 .rights{
     font-family: 'Montserrat', sans-serif;
     display: block;
